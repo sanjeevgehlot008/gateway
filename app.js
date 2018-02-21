@@ -6,11 +6,11 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose')
 var debug = require('debug')('nodewebapp:server');
-/* var http = require('http');
+var http = require('http');
 var sms = require('./model/sms');
 
 var user = require('./model/user');
-var KAVENEGAR_API_KEY = require('./config/kavenegar'); */
+var KAVENEGAR_API_KEY = require('./config/kavenegar'); 
 var SMS_PERMISSION_AUTH_TOKEN = require('./config/token');
 var validator = require('validator');
 const httpProxy = require('express-http-proxy');
